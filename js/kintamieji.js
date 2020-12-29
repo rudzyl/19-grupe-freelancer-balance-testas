@@ -10,11 +10,28 @@ function renderMenesiai(selecotr, data) {
         if (!item) {
             continue;
         }
+        // const pavadinimas = [
+        //     {menesis: 'spalis'},
+        //     {menesis: 'sausis'},
+        //     {menesis: 'kovas'},
+        //     {menesis: 'liepa'},
+        //     {menesis: 'vasaris'},
+        //     {menesis: 'geguze'},
+        //     {menesis: 'geguze'},
+        //     {menesis: 'rugsejis'},
+        //     {menesis: 'birzelis'},
+        //     {menesis: 'lapkritis'},
+        //     {menesis: 'rugpjutis'},
+        //     {menesis: 'gruodis'}
+        // ];
+        // if(!pavadinimas) {
+        //     continue;
+        // }
     
 
     HTML += `<div class="table-row">
                 <div class="cell">${item.month}</div>
-                <div class="cell">Sausis</div>
+                <div class="cell">sausis</div>
                 <div class="cell">${item.income} Eur</div>
                 <div class="cell">${item.expense}</div>
                 <div class="cell">150.00 Eur</div>
