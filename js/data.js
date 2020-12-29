@@ -13,7 +13,20 @@ const account = [
     { month: 12, expense: 200 }
 ];
 
+const pavadinimas = [
+     {menesis: 'spalis'},
+     {menesis: 'sausis'},
+     {menesis: 'kovas'},
+     {menesis: 'liepa'},
+     {menesis: 'vasaris'},
+     {menesis: 'geguze'},
+     {menesis: 'geguze'},
+     {menesis: 'rugsejis'},
+     {menesis: 'birzelis'},
+     {menesis: 'lapkritis'},
+     {menesis: 'rugpjutis'},
+     {menesis: 'gruodis'}
+ ];
 
 
-
-export { account }
+export { account, pavadinimas }

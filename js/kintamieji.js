@@ -31,7 +31,7 @@ function renderMenesiai(selecotr, data) {
 
     HTML += `<div class="table-row">
                 <div class="cell">${item.month}</div>
-                <div class="cell">sausis</div>
+                <div class="cell">${item.menesis}</div>
                 <div class="cell">${item.income} Eur</div>
                 <div class="cell">${item.expense}</div>
                 <div class="cell">150.00 Eur</div>
